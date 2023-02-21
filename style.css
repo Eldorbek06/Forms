@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+/* title */
+.title {
+    margin-bottom: 60px;
+}
+
+.title h1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title nav span {
+    font-size: 14px;
+}
+
+/* title */
+
+/* form */
+.inputs-collection {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs label {
+    position: relative;
+}
+
+.inputs label.required span:first-child{
+    color: #4200FF;
+}
+
+.inputs label :first-child {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.inputs label .important {
+    position: absolute;
+    font-size: 11px;
+    left: 0;
+    bottom: -15px;
+    color: #595959;
+}
+
+.inputs input {
+    padding: 20px 12px;
+    width: 277px;
+    border: 2px solid #949494;
+    border-radius: 4px;
+    outline: none;
+    font-style: 16px;
+}
+
+.inputs label.required input{
+    border-color: #4200FF;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -1;
+    transition: all ease .8s;
+}
+
+form button{
+    background-color: #4200FF;
+    color: white;
+    font-size: 14px;
+    width: 277px;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 12px;
+    margin-top: 20px;
+}
+/* form */
+
+/* additive-classes */
+
+.input-focus{
+    border-color: limegreen !important;
+}
+
+.input-name-active{
+    color: limegreen !important;
+}
+
+.important-active{
+    color: limegreen !important;
+}
+
+
+.img-active{
+    right: -24px;
+}
+
+.input-red{
+    border-color: red !important;
+}
+
+.input-name-red{
+    color: red !important;
+}
+
+.important-red{
+    color: red !important;
+}

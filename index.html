@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JS DOM - Forms</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <center class="title">
+            <h1>Example form</h1>
+            <nav>
+                <span class="all">All: </span>
+                <span class="need">Need: </span>
+                <span class="success">Success: </span>
+                <span class="error">Error: </span>
+            </nav>
+        </center>
+
+        <form action="#">
+
+            <div class="inputs-collection">
+
+                <div class="inputs left">
+
+                    <label class="required" for="name">
+                        
+                        <span>Name</span>
+                        <input id="name" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="surname">
+                        
+                        <span>Surname</span>
+                        <input id="surname" type="text">
+
+                    </label>
+                    <label class="required" for="emailAdress">
+
+                        <span>Email adress</span>
+                        <input id="emailAdress" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="phoneNumber">
+                        
+                        <span>Phone number</span>
+                        <input id="phoneNumber" type="text">
+
+                    </label>
+                    <label for="momName">
+                        
+                        <span>Your Mom's name</span>
+                        <input id="momName" type="text">
+
+                    </label>
+                    <label for="papName">
+                        
+                        <span>Your Pap's name</span>
+                        <input id="papName" type="text">
+
+                    </label>
+
+                </div>
+
+                <div class="inputs right">
+
+                    <label class="required" for="age">
+
+                        <span>Age</span>
+                        <input id="age" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="aboutUser">
+
+                        <span>About you</span>
+                        <input id="aboutUser" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="js">
+
+                        <span>What is JavaScript?</span>
+                        <input id="js" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+                        
+                    </label>
+                    <label class="required" for="html">
+                        
+                        <span>What is HTML?</span>
+                        <input id="html" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+                        
+                    </label>
+                    <label class="required" for="css">
+                        
+                        <span>What is CSS?</span>
+                        <input id="css" type="text">
+                        <img src="./images/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="car">
+                        
+                        <span>Your favourite car</span>
+                        <input id="car" type="text">
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <center>
+                <button>Save changes</button>
+            </center>
+
+        </form>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
