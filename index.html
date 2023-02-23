@@ -18,55 +18,55 @@
             <nav>
                 <span class="all">All: </span>
                 <span class="need">Need: </span>
-                <span class="success">Success: </span>
-                <span class="error">Error: </span>
+                <span class="success">Success: 0</span>
+                <span class="error">Error: 0</span>
             </nav>
         </center>
 
-        <form action="#">
+        <form name="reg">
 
             <div class="inputs-collection">
 
                 <div class="inputs left">
 
                     <label class="required" for="name">
-                        
+
                         <span>Name</span>
-                        <input id="name" type="text">
+                        <input id="name" type="text" name="name">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
 
                     </label>
                     <label for="surname">
-                        
+
                         <span>Surname</span>
-                        <input id="surname" type="text">
+                        <input id="surname" type="text" name="surname">
 
                     </label>
                     <label class="required" for="emailAdress">
 
                         <span>Email adress</span>
-                        <input id="emailAdress" type="text">
+                        <input id="emailAdress" type="text" name="email">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
 
                     </label>
                     <label for="phoneNumber">
-                        
+
                         <span>Phone number</span>
-                        <input id="phoneNumber" type="text">
+                        <input id="phoneNumber" type="text" name="phone">
 
                     </label>
                     <label for="momName">
-                        
+
                         <span>Your Mom's name</span>
-                        <input id="momName" type="text">
+                        <input id="momName" type="text" name="mother">
 
                     </label>
                     <label for="papName">
-                        
+
                         <span>Your Pap's name</span>
-                        <input id="papName" type="text">
+                        <input id="papName" type="text" name="father">
 
                     </label>
 
@@ -77,7 +77,7 @@
                     <label class="required" for="age">
 
                         <span>Age</span>
-                        <input id="age" type="text">
+                        <input id="age" type="number" name="age">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
 
@@ -85,7 +85,7 @@
                     <label class="required" for="aboutUser">
 
                         <span>About you</span>
-                        <input id="aboutUser" type="text">
+                        <input id="aboutUser" type="text" name="about">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
 
@@ -93,31 +93,31 @@
                     <label class="required" for="js">
 
                         <span>What is JavaScript?</span>
-                        <input id="js" type="text">
+                        <input id="js" type="text" name="js">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
-                        
+
                     </label>
                     <label class="required" for="html">
-                        
+
                         <span>What is HTML?</span>
-                        <input id="html" type="text">
+                        <input id="html" type="text" name="html">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
-                        
+
                     </label>
                     <label class="required" for="css">
-                        
+
                         <span>What is CSS?</span>
-                        <input id="css" type="text">
+                        <input id="css" type="text" name="css">
                         <img src="./images/error warning.svg" alt="">
                         <span class="important">Need to feel</span>
 
                     </label>
                     <label for="car">
-                        
+
                         <span>Your favourite car</span>
-                        <input id="car" type="text">
+                        <input id="car" type="text" name="car">
 
                     </label>
 
@@ -130,6 +130,35 @@
             </center>
 
         </form>
+
+    </div>
+
+    <div class="loading">
+
+        <div class="loading-body">
+
+            <div class="loading-content">
+
+                <div class="loading-title">Please wait!</div>
+
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
